@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Создание статьи</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<ul class="header__row">
+						<li><a href="../../index/source/index.kit">Главная</a></li>
+						<li><a href="#">О сайте</a></li>
+						<li><a href="#">Предложить статью</a></li>
+						<li><a href="#">Войти</a></li>
+					</ul>
+				</div>
+			</header>
+			<div class="content">
+				<div class="container">
+					<div class="content__addpage addpage">
+						<h2>Создание статьи</h2>
+						<p>
+							<label class="form-label" for="id_name"> </label><input type="text" name="name" class="form-input" maxlength="255" required="" id="id_name" placeholder="Название фильма...">
+						</p>
+						<p>
+							<label class="form-label" for="id_slug"></label><input type="text" name="slug" maxlength="255" required="" id="id_slug" placeholder="URL...">
+						</p>
+						<p>
+							<label class="form-label" for="id_title"></label><input type="text" name="title" class="form-input" maxlength="255" required="" id="id_title" placeholder="Заголовок...">
+						</p>
+						<p>
+							<label class="form-label" for="id_content"></label><textarea name="content" cols="60" rows="10" id="id_content" style="width: 343px; height: 425px;" placeholder="Текст статьи..."></textarea>
+						</p>
+						<p>
+							<label class="form-label" for="id_photo">Главное фото: </label><input type="file" name="photo" accept="image/*" required="" id="id_photo">
+						</p>
+						<p>
+							<label class="form-label" for="id_content_photo_first">Первое фото статьи: </label><input type="file" name="content_photo_first" accept="image/*" required="" id="id_content_photo_first">
+						</p>
+						<p>
+							<label class="form-label" for="id_content_photo_second">Второе фото статьи: </label><input type="file" name="content_photo_second" accept="image/*" required="" id="id_content_photo_second">
+						</p>
+						<p>
+							<label class="form-label" for="id_content_source"></label><input type="text" name="content_source" class="form-input" maxlength="255" required="" id="id_content_source" placeholder="Источник...">
+						</p>
+						<p>
+							<label class="form-label" for="id_prod">Режиссер: </label>
+						<select name="prod" required="" id="id_prod">
+					   <option value="" selected="">Режиссер не выбран</option>
+
+					   <option value="1">Кристофер Нолан</option>
+
+					   <option value="2">Дэвид Финчер</option>
+
+					   <option value="3">Квентин Тарантино</option>
+
+					   <option value="4">Дени Вильнев</option>
+
+					   <option value="5">Мэри Хэррон</option>
+
+					   <option value="6">Пон Чжун Хо</option>
+
+					   </select>
+					   </p>
+						<button>Добавить</button>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__content">
+						<div class="footer__contacts">
+							<p>Контакты:</p>
+							<p>matvxxv@qwerty.com</p>
+							<p><a href="#"><img src="img/icons/inst_icon.png" alt=""></a></p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
+	
